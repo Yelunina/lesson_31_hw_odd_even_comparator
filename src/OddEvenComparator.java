@@ -16,7 +16,7 @@ public class OddEvenComparator {
         }
 
         // Sorting on the basis of last bit if
-        // if one is odd and the other one is even
+        //  one is odd and the other one is even
         return (a & 1) < (b & 1);
     }
 
